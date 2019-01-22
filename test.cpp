@@ -1,8 +1,16 @@
 #include <iostream>
 using namespace std;
 
+#define FOR(n) for(int i = 0;i<n;++i)
+
 int main(){
-	cout<<"hello world!"<<endl;
+	int x;
+
+	cin>>x;
+
+	FOR(x){
+		cout<<"hello world!"<<endl;
+	}
 
 	return 0;
 }
